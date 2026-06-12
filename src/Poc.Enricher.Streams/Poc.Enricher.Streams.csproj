@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <UserSecretsId>dotnet-Poc.Enricher.Streams-4b50f088-b749-49e6-9bcb-b57796e0ed83</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.9" />
+    <PackageReference Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.16.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Contracts\Poc.Contracts.csproj" />
+    <ProjectReference Include="..\Poc.Kafka\Poc.Kafka.csproj" />
+  </ItemGroup>
+</Project>

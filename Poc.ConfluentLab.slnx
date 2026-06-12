@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Poc.Contracts/Poc.Contracts.csproj" />
+    <Project Path="src/Poc.Enricher.Streamiz/Poc.Enricher.Streamiz.csproj" />
+    <Project Path="src/Poc.Enricher.Streams/Poc.Enricher.Streams.csproj" />
+    <Project Path="src/Poc.Kafka/Poc.Kafka.csproj" />
+    <Project Path="src/Poc.Proxy.Api/Poc.Proxy.Api.csproj" />
+    <Project Path="src/Poc.ServiceA.Api/Poc.ServiceA.Api.csproj" />
+    <Project Path="src/Poc.ServiceB.Worker/Poc.ServiceB.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Poc.IntegrationTests/Poc.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

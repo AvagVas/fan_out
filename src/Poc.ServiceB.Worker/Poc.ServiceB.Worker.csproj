@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <UserSecretsId>dotnet-Poc.ServiceB.Worker-0bfa5847-8baa-47e4-acc0-081e09cb5446</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.16.0-beta.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Contracts\Poc.Contracts.csproj" />
+    <ProjectReference Include="..\Poc.Kafka\Poc.Kafka.csproj" />
+  </ItemGroup>
+</Project>

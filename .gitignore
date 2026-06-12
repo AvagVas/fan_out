@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# .NET / C# solution
+# ---------------------------------------------------------------------------
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*_i.c
+*_p.c
+*_h.h
+*.ncrunch*
+.*crunch*.local.xml
+
+# Build / restore artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.binlog
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/
+nuget.exe
+
+# .NET Core / publish
+publish/
+*.publishsettings
+PublishScripts/
+*.azurePubxml
+*.pubxml
+*.pubxml.user
+
+# User-specific & local config
+*.local.json
+appsettings.*.local.json
+secrets.json
+
+# Misc tooling
+.dotnet/
+.tools/
+BenchmarkDotNet.Artifacts/
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# Project-local runtime state
+# ---------------------------------------------------------------------------
+# SQLite databases produced by the services at runtime
+*.db
+*.db-shm
+*.db-wal
+data/
